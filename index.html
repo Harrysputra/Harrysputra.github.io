@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Harrysputra Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <nav
+      class="navbar navbar-expand-lg bg-dark position-fixed top-0 w-100 z-3"
+      data-bs-theme="dark"
+    >
+      <div class="container">
+        <a class="navbar-brand d-lg-none d-md-block" href="#"
+          >Harrysputra ();</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-between"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav d-lg-block d-none">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Harrysputra ();</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Z-Index fungsinya untuk membuat konten levelnya diatas atau di bawah mirip seperti layer di edit-->
+    <!-- End of Header -->
+
+    <!-- Banner -->
+    <div
+      id="home"
+      class="banner vh-100 w-100 bg-dark text-light d-flex align-items-center mb-5"
+    >
+      <div class="container container-banner">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-6">
+            <p>Hello World, I'm</p>
+            <h1>Harrys Putra</h1>
+            <h4>Freelance Photographer & Videographer</h4>
+            <p>Wellcome to My Personal Portfolio</p>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <img
+              src="https://images.unsplash.com/photo-1633372938857-c86409d6cdd8?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="rounded-circle object-fit-cover border"
+              style="width: 300px; height: 300px"
+              alt="Photo profile"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Banner -->
+
+    <!-- About -->
+    <div id="about" class="container mb-5">
+      <div class="profile-card mb-5">
+        <div class="row align-items-center">
+          <div class="col-12 col-lg-5">
+            <img
+              src="https://images.unsplash.com/photo-1633372938857-c86409d6cdd8?auto=format&fit=crop&q=80&w=1374&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="rounded-circle object-fit-cover border"
+              style="width: 300px; height: 300px"
+              alt="Photo profile"
+            />
+          </div>
+          <div class="col-12 col-lg-7">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt non
+              itaque expedita aliquam illo praesentium iste perspiciatis! Nihil
+              quis fuga praesentium quasi neque alias excepturi veritatis
+              possimus! Repellat maxime aspernatur animi molestiae.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- bootstrap taps -->
+      <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="pills-home-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-home"
+            type="button"
+            role="tab"
+            aria-controls="pills-home"
+            aria-selected="true"
+          >
+            Tech Stack
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-profile-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-profile"
+            type="button"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+          >
+            Tools
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="pills-home"
+          role="tabpanel"
+          aria-labelledby="pills-home-tab"
+          tabindex="0"
+        >
+          <div class="row">
+            <div class="col-6 col-lg-3 mb-5">
+              <div class="card-skill">
+                <div class="row align-items-center">
+                  <div class="col-5">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarExhZC7HudnBgnHJdYAZ9JfijRHS-UVpAF989NhSGw&s"
+                      alt=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <h4>HTML</h4>
+                    <p>Advance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mb-5">
+              <div class="card-skill">
+                <div class="row align-items-center">
+                  <div class="col-5">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarExhZC7HudnBgnHJdYAZ9JfijRHS-UVpAF989NhSGw&s"
+                      alt=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <h4>HTML</h4>
+                    <p>Advance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mb-5">
+              <div class="card-skill">
+                <div class="row align-items-center">
+                  <div class="col-5">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarExhZC7HudnBgnHJdYAZ9JfijRHS-UVpAF989NhSGw&s"
+                      alt=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <h4>HTML</h4>
+                    <p>Advance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mb-5">
+              <div class="card-skill">
+                <div class="row align-items-center">
+                  <div class="col-5">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarExhZC7HudnBgnHJdYAZ9JfijRHS-UVpAF989NhSGw&s"
+                      alt=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <h4>HTML</h4>
+                    <p>Advance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mb-5">
+              <div class="card-skill">
+                <div class="row align-items-center">
+                  <div class="col-5">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarExhZC7HudnBgnHJdYAZ9JfijRHS-UVpAF989NhSGw&s"
+                      alt=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <h4>HTML</h4>
+                    <p>Advance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mb-5">
+              <div class="card-skill">
+                <div class="row align-items-center">
+                  <div class="col-5">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarExhZC7HudnBgnHJdYAZ9JfijRHS-UVpAF989NhSGw&s"
+                      alt=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <h4>HTML</h4>
+                    <p>Advance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mb-5">
+              <div class="card-skill">
+                <div class="row align-items-center">
+                  <div class="col-5">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarExhZC7HudnBgnHJdYAZ9JfijRHS-UVpAF989NhSGw&s"
+                      alt=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <h4>HTML</h4>
+                    <p>Advance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mb-5">
+              <div class="card-skill">
+                <div class="row align-items-center">
+                  <div class="col-5">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarExhZC7HudnBgnHJdYAZ9JfijRHS-UVpAF989NhSGw&s"
+                      alt=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <h4>HTML</h4>
+                    <p>Advance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-profile"
+          role="tabpanel"
+          aria-labelledby="pills-profile-tab"
+          tabindex="0"
+        >
+          <div class="row">
+            <div class="col-6 col-lg-3 mb-5">
+              <div class="card-skill">
+                <div class="row align-items-center">
+                  <div class="col-5">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarExhZC7HudnBgnHJdYAZ9JfijRHS-UVpAF989NhSGw&s"
+                      alt=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <h4>HTML</h4>
+                    <p>Advance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mb-5">
+              <div class="card-skill">
+                <div class="row align-items-center">
+                  <div class="col-5">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarExhZC7HudnBgnHJdYAZ9JfijRHS-UVpAF989NhSGw&s"
+                      alt=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <h4>HTML</h4>
+                    <p>Advance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mb-5">
+              <div class="card-skill">
+                <div class="row align-items-center">
+                  <div class="col-5">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarExhZC7HudnBgnHJdYAZ9JfijRHS-UVpAF989NhSGw&s"
+                      alt=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <h4>HTML</h4>
+                    <p>Advance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mb-5">
+              <div class="card-skill">
+                <div class="row align-items-center">
+                  <div class="col-5">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarExhZC7HudnBgnHJdYAZ9JfijRHS-UVpAF989NhSGw&s"
+                      alt=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <h4>HTML</h4>
+                    <p>Advance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mb-5">
+              <div class="card-skill">
+                <div class="row align-items-center">
+                  <div class="col-5">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarExhZC7HudnBgnHJdYAZ9JfijRHS-UVpAF989NhSGw&s"
+                      alt=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <h4>HTML</h4>
+                    <p>Advance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mb-5">
+              <div class="card-skill">
+                <div class="row align-items-center">
+                  <div class="col-5">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarExhZC7HudnBgnHJdYAZ9JfijRHS-UVpAF989NhSGw&s"
+                      alt=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <h4>HTML</h4>
+                    <p>Advance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mb-5">
+              <div class="card-skill">
+                <div class="row align-items-center">
+                  <div class="col-5">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarExhZC7HudnBgnHJdYAZ9JfijRHS-UVpAF989NhSGw&s"
+                      alt=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <h4>HTML</h4>
+                    <p>Advance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6 col-lg-3 mb-5">
+              <div class="card-skill">
+                <div class="row align-items-center">
+                  <div class="col-5">
+                    <img
+                      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQarExhZC7HudnBgnHJdYAZ9JfijRHS-UVpAF989NhSGw&s"
+                      alt=""
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="col-7">
+                    <h4>HTML</h4>
+                    <p>Advance</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end bootstrap tabs -->
+
+      <!-- cntrl + D untuk select nama yang sama -->
+    </div>
+    <!-- End About -->
+
+    <!-- Portfolio -->
+    <div id="portfolio" class="container">
+      <div class="tex-center">
+        <h2>Past Project Experience</h2>
+        <p>Explore the project i've worked on so far</p>
+      </div>
+
+      <!-- card portfolio -->
+      <div class="row">
+        <div class="col-12 col-lg-4 mb-3">
+          <div class="card w-100">
+            <img
+              src="https://images.unsplash.com/photo-1541516160071-4bb0c5af65ba?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top"
+              alt="Wedding"
+            />
+            <div class="card-body">
+              <h5 class="card-title">NSK Project</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a
+                href="https://drive.google.com/drive/folders/1-xKEiDJ9q2yeHguqf3NlNf3p0x4wxn9e?usp=drive_link"
+                target="_blank"
+                class="btn btn-primary"
+                >Go</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-3">
+          <div class="card w-100">
+            <img
+              src="https://images.unsplash.com/photo-1541516160071-4bb0c5af65ba?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top"
+              alt="Wedding"
+            />
+            <div class="card-body">
+              <h5 class="card-title">NSK Project</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a
+                href="https://drive.google.com/drive/folders/1-xKEiDJ9q2yeHguqf3NlNf3p0x4wxn9e?usp=drive_link"
+                target="_blank"
+                class="btn btn-primary"
+                >Go</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-3">
+          <div class="card w-100">
+            <img
+              src="https://images.unsplash.com/photo-1541516160071-4bb0c5af65ba?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top"
+              alt="Wedding"
+            />
+            <div class="card-body">
+              <h5 class="card-title">NSK Project</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a
+                target="_blank"
+                href="https://drive.google.com/drive/folders/1-xKEiDJ9q2yeHguqf3NlNf3p0x4wxn9e?usp=drive_link"
+                class="btn btn-primary"
+                >Go</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-4 mb-3">
+          <div class="card w-100">
+            <img
+              src="https://images.unsplash.com/photo-1541516160071-4bb0c5af65ba?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              class="card-img-top"
+              alt="Wedding"
+            />
+            <div class="card-body">
+              <h5 class="card-title">NSK Project</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+              <a
+                href="https://drive.google.com/drive/folders/1-xKEiDJ9q2yeHguqf3NlNf3p0x4wxn9e?usp=drive_link"
+                target="_blank"
+                class="btn btn-primary"
+                >Go</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end card portfolio -->
+    </div>
+    <!-- end portfolio -->
+
+    <!-- footer -->
+    <footer class="w-100 py-4 text-center bg-dark text-light">
+      <p>Copyright &copy; 2023 | Develop By: Harrys Putra</p>
+    </footer>
+    <!-- end footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
